@@ -1,0 +1,1 @@
+Mакет: https://www.figma.com/file/6FMWkB94wE7KTkcCgUXtnC/Дипломный-проект?type=design&node-id=1-7389&mode=design&t=SPsujoGrAruPo94j-0

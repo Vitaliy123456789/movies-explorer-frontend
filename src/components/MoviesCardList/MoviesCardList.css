@@ -1,0 +1,131 @@
+.cardlist {
+  padding-top: 80px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 360px);
+  column-gap: 30px;
+  row-gap: 58px;
+  justify-items: center;
+  justify-content: center;
+}
+.movicard__img {
+  cursor: pointer;
+  display: block;
+  width: 360px;
+  height: 201px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.movicard__title {
+  color: #ffffff;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  margin: 0;
+}
+.movicard__timing {
+  background-color: #2f2f2f;
+  width: 52px;
+  height: 18px;
+  color: #8b8b8b;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.movicard_content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 14px;
+}
+
+.movicard__button {
+  width: 71px;
+  height: 21px;
+  background-color: #313131;
+  margin: 0;
+  border-radius: 30px;
+  border: none;
+  position: absolute;
+  left: 274px;
+  top: 14px;
+  cursor: pointer;
+  display: none;
+  background-image: url(../../images/save.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.movicard_conteiner {
+  position: relative;
+}
+
+.movicard_conteiner:hover .movicard__button {
+  display: block;
+}
+
+.movicard__button:active {
+  background-image: url(../../images/save3.svg);
+  width: 21px;
+  height: 21px;
+  left: 325px;
+}
+
+.movicard__button_delite {
+  background-image: url(../../images/d3.svg);
+  width: 21px;
+  height: 21px;
+  left: 325px;
+}
+
+@media (max-width: 768px) {
+  .cardlist {
+    grid-template-columns: repeat(auto-fit, 339px);
+    row-gap: 45px;
+  }
+  .movicard__img {
+    cursor: pointer;
+    display: block;
+    width: 339px;
+    height: 190px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  .movicard_content {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 320px) {
+  .cardlist {
+    grid-template-columns: repeat(auto-fit, 300px);
+    row-gap: 36px;
+    column-gap: 0px;
+    padding-top: 50px;
+  }
+  .movicard__img {
+    width: 300px;
+    height: 168px;
+  }
+  .movicard_content {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 16px;
+  }
+  .movicard__title {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
