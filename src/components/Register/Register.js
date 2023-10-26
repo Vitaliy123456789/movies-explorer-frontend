@@ -3,7 +3,7 @@ import logo from "../../images/logo.svg";
 import { Link } from "react-router-dom";
 export function Register() {
   return (
-    <section className="register">
+    <main className="register">
       <div className="register__conteiner">
         <img src={logo} alt="логотип дипломной работы" className="register__img" />
         <h1 className="register__title">Добро пожаловать!</h1>
@@ -26,6 +26,6 @@ export function Register() {
           Войти
         </Link>
       </div>
-    </section>
+    </main>
   );
 }

@@ -18,7 +18,7 @@ export function Profile(props) {
     props.isOpen ? `profile__button-save_nofing` : ""
   }`;
   return (
-    <section className="profile">
+    <main className="profile">
       <Header>
         <div className="header__link-conteiner">
           <Link to="/movies" className="header__link-movise">
@@ -64,6 +64,6 @@ export function Profile(props) {
         </button>
         <button className={ProfileButtonClassName}>Выйти из аккаунта</button>
       </div>
-    </section>
+    </main>
   );
 }

@@ -7,7 +7,7 @@ export function BurgerMenu(props) {
     props.isOpen ? `burgermenu__span_opened` : ""
   }`;
   return (
-    <section className="burgermenu">
+    <main className="burgermenu">
       <div className="burgermenu__conteiner" onClick={props.Menu}>
         <span className={BurgerMenuButtonClassName}>
           <span className="burgermenu__span-middle"></span>
@@ -37,6 +37,6 @@ export function BurgerMenu(props) {
         </ul>
         <button className="burgermenu__button">Аккаунт</button>
       </nav>
-    </section>
+    </main>
   );
 }

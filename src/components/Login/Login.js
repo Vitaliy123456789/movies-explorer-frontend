@@ -3,7 +3,7 @@ import logo from "../../images/logo.svg";
 import { Link } from "react-router-dom";
 export function Login() {
   return (
-    <section className="login">
+    <main className="login">
       <div className="login__conteiner">
         <img src={logo} alt="логотип дипломной работы" className="login__img" />
         <h1 className="login__title">Рады видеть!</h1>
@@ -21,6 +21,6 @@ export function Login() {
           Регистрация
         </Link>
       </div>
-    </section>
+    </main>
   );
 }

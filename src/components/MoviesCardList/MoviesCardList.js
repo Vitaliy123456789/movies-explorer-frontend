@@ -3,7 +3,7 @@ import movie from "../../images/pic__COLOR_piccccc.png";
 
 export function MoviesCarList(props) {
   return (
-    <section className="cardlist">
+    <main className="cardlist">
       <div className="movicard">
         <button className={props.classButton}></button>
         <img className="movicard__img" src={movie} alt="обложка фильма"></img>
@@ -20,6 +20,6 @@ export function MoviesCarList(props) {
           <p className="movicard__timing">1ч 17м</p>
         </div>
       </div>
-    </section>
+    </main>
   );
 }
