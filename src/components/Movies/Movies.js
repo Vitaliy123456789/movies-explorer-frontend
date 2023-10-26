@@ -13,7 +13,7 @@ export function Movies() {
   });
 
   return (
-    <main className="movies">
+    <section className="movies">
       <Header>
         <div className="header__link-conteiner">
           <Link to="/movies" className="header__link-movise">
@@ -35,6 +35,6 @@ export function Movies() {
         <button className="button-more__button">Ещё</button>
       </section>
       <Footer />
-    </main>
+    </section>
   );
 }

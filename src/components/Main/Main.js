@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 export function Main() {
   return (
-    <main className="main">
+    <section className="main">
       <Header>
         <div className="header__links">
           <Link to="/signup" className="header__link">
@@ -25,6 +25,6 @@ export function Main() {
       <AboutMe />
       <Portfolio />
       <Footer />
-    </main>
+    </section>
   );
 }

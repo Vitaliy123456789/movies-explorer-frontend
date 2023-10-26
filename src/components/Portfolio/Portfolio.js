@@ -3,7 +3,7 @@ import arrow from "../../images/text__COLOR_font-main.svg";
 
 export function Portfolio() {
   return (
-    <main className="portfolio">
+    <section className="portfolio">
       <p className="portfolio__title">Портфолио</p>
       <ul className="portfolio__list">
         <li className="portfolio__container">
@@ -37,6 +37,6 @@ export function Portfolio() {
           </a>
         </li>
       </ul>
-    </main>
+    </section>
   );
 }

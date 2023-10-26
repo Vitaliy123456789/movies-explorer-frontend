@@ -30,7 +30,7 @@
   opacity: 0.8;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
   .navtab__conteiner {
     font-size: 10px;
     width: 82px;

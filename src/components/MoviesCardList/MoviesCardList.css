@@ -108,7 +108,7 @@
     margin-top: 25px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .cardlist {
     grid-template-columns: repeat(auto-fit, 300px);
     row-gap: 36px;

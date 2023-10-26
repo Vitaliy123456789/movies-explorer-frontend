@@ -3,8 +3,10 @@ import photo from '../../images/pic__COLOR_pic.png'
 
 export function AboutMe() {
   return(
-    <main className="AboutMe">
+    <section className="AboutMe">
+      <div className='AboutMe__up-container'>
     <p className="AboutMe__title" id='AboutMe'>Студент</p>
+    </div>
     <div className="AboutMe__container">
       <img className="AboutMe__img" src={photo} alt="фото" ></img>
       <div className="AboutMe__text">
@@ -17,6 +19,6 @@ export function AboutMe() {
           <a className="AboutMe__link" href="https://github.com/Vitaliy123456789?tab=repositories" target='blank'>Github</a>
       </div>
     </div>
-  </main>
+  </section>
   )
 }

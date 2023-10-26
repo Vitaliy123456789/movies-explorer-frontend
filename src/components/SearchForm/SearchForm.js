@@ -2,7 +2,7 @@ import "./SearchForm.css";
 
 export function SearchForm() {
   return (
-    <main className="searchform">
+    <section className="searchform">
       <form className="searchform-form">
         <div className="searchform__container">
           <input className="searchform__input" placeholder="Фильм"></input>
@@ -16,6 +16,6 @@ export function SearchForm() {
           <label className="searchform__checkbox-label">Короткометражки</label>
         </div>
       </form>
-    </main>
+    </section>
   );
 }

@@ -12,7 +12,7 @@ export function SavedMovies() {
       setIsEditBurgerMenuOpen((prev) => !prev);
     });
   return (
-    <main className="savedmovise">
+    <section className="savedmovise">
       <Header>
         {" "}
         <div className="header__link-conteiner">
@@ -33,6 +33,6 @@ export function SavedMovies() {
       <MoviesCarList classButton="movicard__button movicard__button_delite" />
       <div className="savedmovise__nothing"></div>
       <Footer />
-    </main>
+    </section>
   );
 }

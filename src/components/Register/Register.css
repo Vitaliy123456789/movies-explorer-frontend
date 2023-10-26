@@ -96,7 +96,7 @@
   margin-top: 16px;
 }
 .register__conteiner {
-  width: 396px;
+  max-width: 396px;
 }
 
 .register__error {
@@ -113,7 +113,7 @@
     padding-top: 232px;
   }
 }
-@media (max-width: 410px) {
+@media (max-width: 450px) {
   .register {
     padding-top: 56px;
   }
