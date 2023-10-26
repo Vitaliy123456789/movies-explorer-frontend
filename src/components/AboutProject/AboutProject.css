@@ -1,9 +1,9 @@
-.aboutProject {
+.aboutproject {
   margin-left: 70px;
   margin-right: 70px;
 }
 
-.aboutProject__title {
+.aboutproject__title {
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -16,13 +16,13 @@
   margin-bottom: 23px;
 }
 
-.aboutProject__conteiner {
+.aboutproject__conteiner {
   border-top: 1px solid #dadada;
   display: flex;
   padding-top: 70px;
 }
 
-.aboutProject__conteiner-title {
+.aboutproject__conteiner-title {
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -32,10 +32,10 @@
   color: #ffffff;
   margin: 0;
   margin-bottom: 26px;
-  width: 550px;
+  max-width: 550px;
 }
 
-.aboutProject__conteiner-text {
+.aboutproject__conteiner-text {
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -43,16 +43,16 @@
   line-height: 20px;
   color: #ffffff;
   margin: 0;
-  width: 550px;
+  max-width: 550px;
 }
 
-.aboutProject__conteiner-flex {
-  width: 550px;
+.aboutproject__conteiner-flex {
+  max-width: 550px;
   margin-right: 40px;
   margin-bottom: 110px;
 }
 
-.aboutProject__date-one {
+.aboutproject__date-one {
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -66,7 +66,7 @@
   align-items: center;
 }
 
-.aboutProject__date-four {
+.aboutproject__date-four {
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -83,7 +83,7 @@
   align-items: center;
 }
 
-.aboutProject__date-back {
+.aboutproject__date-back {
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -95,7 +95,7 @@
   justify-content: center;
   align-items: center;
 }
-.aboutProject__date-front {
+.aboutproject__date-front {
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -108,7 +108,7 @@
   align-items: center;
 }
 
-.aboutProject__date {
+.aboutproject__date {
   display: grid;
   grid-template-columns: 228px auto;
   grid-template-rows: 36px auto;
@@ -116,83 +116,83 @@
   padding-bottom: 110px;
 }
 
-@media (max-width: 768px) {
-  .aboutProject {
+@media (max-width: 760px) {
+  .aboutproject {
     margin-left: 50px;
     margin-right: 50px;
   }
-  .aboutProject__conteiner-title {
+  .aboutproject__conteiner-title {
     margin-bottom: 22px;
-    width: 319px;
+    max-width: 319px;
   }
-  .aboutProject__conteiner-text {
+  .aboutproject__conteiner-text {
     font-size: 12px;
     line-height: 18px;
-    width: 319px;
+    max-width: 319px;
   }
-  .aboutProject__conteiner-flex {
+  .aboutproject__conteiner-flex {
     margin-right: 30px;
     margin-bottom: 93px;
   }
-  .aboutProject__title {
+  .aboutproject__title {
     margin-top: 90px;
   }
-  .aboutProject__date {
+  .aboutproject__date {
     grid-template-columns: 140px auto;
     padding-bottom: 90px;
   }
 }
 @media (max-width: 320px) {
-  .aboutProject {
+  .aboutproject {
     margin-left: 18px;
     margin-right: 18px;
   }
-  .aboutProject__title {
+  .aboutproject__title {
     font-size: 18px;
     line-height: 22px;
     margin-top: 70px;
     margin-bottom: 28px;
   }
-  .aboutProject__conteiner-title {
+  .aboutproject__conteiner-title {
     font-size: 18px;
     line-height: 22px;
     width: 284px;
     margin-bottom: 16px;
   }
-  .aboutProject__conteiner {
+  .aboutproject__conteiner {
     flex-direction: column;
     padding-top: 60px;
   }
-  .aboutProject__conteiner-text {
+  .aboutproject__conteiner-text {
     font-size: 11px;
     line-height: 16px;
     width: 284px;
   }
-  .aboutProject__conteiner-flex {
+  .aboutproject__conteiner-flex {
     margin-bottom: 56px;
   }
-  .aboutProject__conteiner-flex:last-child {
+  .aboutproject__conteiner-flex:last-child {
     margin-bottom: 60px;
   }
-  .aboutProject__date {
+  .aboutproject__date {
     grid-template-columns: 100px auto;
     grid-template-rows: 35px auto;
     row-gap: 10px;
   }
-  .aboutProject__date-one {
+  .aboutproject__date-one {
     font-size: 11px;
     line-height: 14px;
   }
 
-  .aboutProject__date-four {
+  .aboutproject__date-four {
     font-size: 11px;
     line-height: 14px;
   }
-  .aboutProject__date-front {
+  .aboutproject__date-front {
     font-size: 11px;
     line-height: 13px;
   }
-  .aboutProject__date-back {
+  .aboutproject__date-back {
     font-size: 11px;
     line-height: 13px;
   }

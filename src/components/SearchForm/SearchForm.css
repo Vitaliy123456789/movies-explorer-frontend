@@ -15,8 +15,8 @@
 }
 .searchform__button {
   background-image: url("../../images/find-3.svg");
-  width: 44px;
-  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
   border-style: none;
   border-radius: 8px;
   cursor: pointer;
@@ -32,7 +32,7 @@
   padding-top: 80px;
 }
 
-.searchform-checkbox__label {
+.searchform__checkbox-label {
   margin: 0;
   color: #ffffff;
   font-family: "Inter", "Arial", sans-serif;
@@ -42,18 +42,18 @@
   line-height: 18px;
   margin-left: 12px;
 }
-.searchform-checkbox__switch {
+.searchform__checkbox-switch {
   position: relative;
   display: inline-block;
   width: 34px;
   height: 14px;
 }
-.searchform-checkbox__switch input {
+.searchform__checkbox-switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
-.searchform-checkbox__slider {
+.searchform__checkbox-slider {
   position: absolute;
   cursor: pointer;
   left: 0;
@@ -64,7 +64,7 @@
   border-radius: 14px;
   transition: 0.4s;
 }
-.searchform-checkbox__slider::before {
+.searchform__checkbox-slider::before {
   position: absolute;
   content: "";
   width: 10px;
@@ -76,11 +76,11 @@
   transition: 0.4s;
 }
 
-input:checked + .searchform-checkbox__slider {
+input:checked + .searchform__checkbox-slider {
   background-color: #2be080;
 }
 
-input:checked + .searchform-checkbox__slider::before {
+input:checked + .searchform__checkbox-slider::before {
   transform: translateX(16px);
   background-color: #ffffff;
 }
@@ -130,7 +130,7 @@ input:checked + .searchform-checkbox__slider::before {
     margin-left: 14px;
     margin-right: 14px;
   }
-  .searchform-checkbox__label {
+  .searchform__checkbox-label {
     font-size: 11px;
     line-height: 18px;
   }

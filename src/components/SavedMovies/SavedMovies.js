@@ -7,13 +7,10 @@ import { BurgerMenu } from "../BurgerMenu/BurgerMenu";
 import { Footer } from "../Footer/Footer";
 import { Link } from "react-router-dom";
 export function SavedMovies() {
-  const [isEditBurgerMenuOpen, setIsEditBurgerMenuOpen] = React.useState(false);
-  const handleEditBurgerMenuClick = React.useCallback(() => {
-    setIsEditBurgerMenuOpen(true);
-  });
-  const closeEditBurgerMenuClick = React.useCallback(() => {
-    setIsEditBurgerMenuOpen(false);
-  });
+    const [isEditBurgerMenuOpen, setIsEditBurgerMenuOpen] = React.useState(false);
+    const handleEditBurgerMenuClick = React.useCallback(() => {
+      setIsEditBurgerMenuOpen((prev) => !prev);
+    });
   return (
     <section className="savedmovise">
       <Header>
@@ -28,7 +25,6 @@ export function SavedMovies() {
         </div>
         <BurgerMenu
           isOpen={isEditBurgerMenuOpen}
-          isClose={closeEditBurgerMenuClick}
           Menu={handleEditBurgerMenuClick}
         />
         <button className="header__link-button">Аккаунт</button>

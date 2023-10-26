@@ -6,10 +6,7 @@ import { BurgerMenu } from "../BurgerMenu/BurgerMenu";
 export function Profile(props) {
   const [isEditBurgerMenuOpen, setIsEditBurgerMenuOpen] = React.useState(false);
   const handleEditBurgerMenuClick = React.useCallback(() => {
-    setIsEditBurgerMenuOpen(true);
-  });
-  const closeEditBurgerMenuClick = React.useCallback(() => {
-    setIsEditBurgerMenuOpen(false);
+    setIsEditBurgerMenuOpen((prev) => !prev);
   });
   const ProfileButtonFormClassName = `profile__button-form ${
     props.isOpen ? `profile__button-form_nofing` : ""
@@ -33,7 +30,6 @@ export function Profile(props) {
         </div>
         <BurgerMenu
           isOpen={isEditBurgerMenuOpen}
-          isClose={closeEditBurgerMenuClick}
           Menu={handleEditBurgerMenuClick}
         />
         <button className="header__link-button">Аккаунт</button>
@@ -46,7 +42,6 @@ export function Profile(props) {
             <input
               className="profile__input"
               placeholder="Виталий"
-              id="input"
               type="text"
               disabled={props.isdisabled}
             ></input>
@@ -56,7 +51,6 @@ export function Profile(props) {
             <input
               className="profile__input"
               placeholder="pochta@yandex.ru"
-              id="input"
               type="text"
               disabled={props.isdisabled}
             ></input>

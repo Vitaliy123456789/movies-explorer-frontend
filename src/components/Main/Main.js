@@ -10,15 +10,13 @@ import { Link } from "react-router-dom";
 
 export function Main() {
   return (
-    <section className="main">
+    <main className="main">
       <Header>
         <div className="header__links">
           <Link to="/signup" className="header__link">
             Регистрация
           </Link>
-          <Link to="/signin">
-            <button className="header__button">Войти</button>
-          </Link>
+          <Link to="/signin" className="header__button">Войти</Link>
         </div>
       </Header>
       <Promo />
@@ -27,6 +25,6 @@ export function Main() {
       <AboutMe />
       <Portfolio />
       <Footer />
-    </section>
+    </main>
   );
 }

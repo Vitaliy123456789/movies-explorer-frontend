@@ -13,7 +13,7 @@ export function Portfolio() {
             target="blank"
           >
             Статичный сайт
-            <img className="portfolio-link__logo" src={arrow} alt="стрелка" />
+            <img className="portfolio__link-logo" src={arrow} alt="стрелка" />
           </a>
         </li>
         <li className="portfolio__container">
@@ -23,7 +23,7 @@ export function Portfolio() {
             target="blank"
           >
             Адаптивный сайт
-            <img className="portfolio-link__logo" src={arrow} alt="стрелка" />
+            <img className="portfolio__link-logo" src={arrow} alt="стрелка" />
           </a>
         </li>
         <li className="portfolio__container">
@@ -33,7 +33,7 @@ export function Portfolio() {
             target="blank"
           >
             Одностраничное приложение
-            <img className="portfolio-link__logo" src={arrow} alt="стрелка" />
+            <img className="portfolio__link-logo" src={arrow} alt="стрелка" />
           </a>
         </li>
       </ul>

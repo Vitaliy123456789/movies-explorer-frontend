@@ -9,11 +9,11 @@ export function SearchForm() {
           <button className="searchform__button" type="submit"></button>
         </div>
         <div className="searchform__container-checkbox">
-          <label className="searchform-checkbox__switch">
+          <label className="searchform__checkbox-switch">
             <input type="checkbox" />
-            <span className="searchform-checkbox__slider" />
+            <span className="searchform__checkbox-slider" />
           </label>
-          <label className="searchform-checkbox__label">Короткометражки</label>
+          <label className="searchform__checkbox-label">Короткометражки</label>
         </div>
       </form>
     </section>

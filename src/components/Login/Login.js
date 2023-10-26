@@ -10,11 +10,9 @@ export function Login() {
       </div>
       <form className="login__form">
         <label className="login__label">E-mail</label>
-        <input className="login__input"></input>
-        <span className="register__error"></span>
-        <label className="login__label">Пароль</label>
-        <input className="login__input"></input>
-        <span className="register__error"></span>
+        <input className="login__input" required></input>
+        <label className="login__label" >Пароль</label>
+        <input className="login__input"required></input>
         <button className="login__button">Войти</button>
       </form>
       <div className="login__back">

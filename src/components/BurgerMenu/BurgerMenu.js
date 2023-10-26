@@ -34,8 +34,8 @@ export function BurgerMenu(props) {
               Сохранённые фильмы
             </Link>
           </li>
-          <button className="burgermenu__button">Аккаунт</button>
         </ul>
+        <button className="burgermenu__button">Аккаунт</button>
       </nav>
     </section>
   );

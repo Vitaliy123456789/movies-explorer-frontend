@@ -8,8 +8,16 @@
   margin-left: 70px;
   margin-right: 70px;
 }
-
+.header__links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   background-color: #3ddc84;
   width: 76px;
   height: 32px;

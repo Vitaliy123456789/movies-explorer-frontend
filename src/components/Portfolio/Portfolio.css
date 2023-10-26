@@ -40,7 +40,7 @@
   padding: 0;
   margin: 0;
 }
-.portfolio-link__logo {
+.portfolio__link-logo {
   width: 29px;
   height: 17px;
 }
@@ -82,7 +82,7 @@
     font-size: 18px;
     line-height: 28px;
   }
-  .portfolio-link__logo {
+  .portfolio__link-logo {
     width: 18px;
     height: 10px;
   }

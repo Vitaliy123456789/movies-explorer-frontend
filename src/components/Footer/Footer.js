@@ -9,7 +9,7 @@ export function Footer() {
       </div>
       <div className="footer__continer-down">
         <p className="footer__down-title">© 2020 </p>
-        <div className="footer__down_conteiner">
+        <div className="footer__down-conteiner">
           <a
             href="https://practicum.yandex.ru/"
             target="blank"
