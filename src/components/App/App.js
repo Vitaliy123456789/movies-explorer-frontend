@@ -20,7 +20,7 @@ function App() {
     setisInput(true);
   });
   return (
-    <main className="Page">
+    <section className="Page">
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/movies" element={<Movies />} />
@@ -40,7 +40,7 @@ function App() {
         <Route path="/signup" element={<Register />} />
         <Route path="*" element={<PageNot />} />
       </Routes>
-    </main>
+    </section>
   );
 }
 
