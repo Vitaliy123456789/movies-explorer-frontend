@@ -96,7 +96,7 @@
   margin-top: 16px;
 }
 .register__conteiner {
-  max-width: 396px;
+  width: 396px;
 }
 
 .register__error {

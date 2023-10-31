@@ -65,6 +65,11 @@
   padding-top: 66px;
   border-top: 1px solid #dadada;
 }
+.AboutMe__img {
+  width: 270px;
+  height: 327px;
+  margin-left: 49px;
+}
 
 @media (max-width: 768px) {
   .AboutMe {
@@ -93,7 +98,7 @@
     height: 307px;
   }
 }
-@media (max-width: 570px) {
+@media (max-width: 610px) {
   .AboutMe {
     margin-left: 14px;
     margin-right: 14px;
@@ -112,6 +117,7 @@
   .AboutMe__img {
     width: 292px;
     height: 352px;
+    margin-left: 0px;
   }
   .AboutMe__name {
     font-size: 30px;

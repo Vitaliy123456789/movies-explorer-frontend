@@ -79,14 +79,16 @@
   background-image: url(../../images/save3.svg);
   width: 21px;
   height: 21px;
-  left: 325px;
+  right: 14px;
+  top: 14px;
 }
 
 .movicard__button_delite {
   background-image: url(../../images/d3.svg);
   width: 21px;
   height: 21px;
-  left: 325px;
+  right: 14px;
+  top: 14px;
 }
 
 @media (max-width: 768px) {
@@ -97,7 +99,7 @@
   .movicard__img {
     cursor: pointer;
     display: block;
-    width: 339px;
+    max-width: 339px;
     height: 190px;
     border-radius: 6px;
     object-fit: cover;
@@ -106,6 +108,11 @@
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 25px;
+  }
+  .movicard__button_delite {
+    background-image: url(../../images/d3.svg);
+    right: 10px;
+    top: 10px;
   }
 }
 @media (max-width: 360px) {
