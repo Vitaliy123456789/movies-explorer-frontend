@@ -1,0 +1,199 @@
+.aboutproject {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.aboutproject__title {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 110px;
+  margin-bottom: 23px;
+}
+
+.aboutproject__conteiner {
+  border-top: 1px solid #dadada;
+  display: flex;
+  padding-top: 70px;
+}
+
+.aboutproject__conteiner-title {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 26px;
+  max-width: 550px;
+}
+
+.aboutproject__conteiner-text {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 0;
+  max-width: 550px;
+}
+
+.aboutproject__conteiner-flex {
+  max-width: 550px;
+  margin-right: 40px;
+  margin-bottom: 110px;
+}
+
+.aboutproject__date-one {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0;
+  background-color: #3ddc84;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutproject__date-four {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #303030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutproject__date-back {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8b8b8b;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutproject__date-front {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8b8b8b;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutproject__date {
+  display: grid;
+  grid-template-columns: 228px auto;
+  grid-template-rows: 36px auto;
+  row-gap: 14px;
+  padding-bottom: 110px;
+}
+
+@media (max-width: 760px) {
+  .aboutproject {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .aboutproject__conteiner-title {
+    margin-bottom: 22px;
+    max-width: 319px;
+  }
+  .aboutproject__conteiner-text {
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 319px;
+  }
+  .aboutproject__conteiner-flex {
+    margin-right: 30px;
+    margin-bottom: 93px;
+  }
+  .aboutproject__title {
+    margin-top: 90px;
+  }
+  .aboutproject__date {
+    grid-template-columns: 140px auto;
+    padding-bottom: 90px;
+  }
+}
+@media (max-width: 320px) {
+  .aboutproject {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  .aboutproject__title {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 70px;
+    margin-bottom: 28px;
+  }
+  .aboutproject__conteiner-title {
+    font-size: 18px;
+    line-height: 22px;
+    width: 284px;
+    margin-bottom: 16px;
+  }
+  .aboutproject__conteiner {
+    flex-direction: column;
+    padding-top: 60px;
+  }
+  .aboutproject__conteiner-text {
+    font-size: 11px;
+    line-height: 16px;
+    width: 284px;
+  }
+  .aboutproject__conteiner-flex {
+    margin-bottom: 56px;
+  }
+  .aboutproject__conteiner-flex:last-child {
+    margin-bottom: 60px;
+  }
+  .aboutproject__date {
+    grid-template-columns: 100px auto;
+    grid-template-rows: 35px auto;
+    row-gap: 10px;
+  }
+  .aboutproject__date-one {
+    font-size: 11px;
+    line-height: 14px;
+  }
+
+  .aboutproject__date-four {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .aboutproject__date-front {
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .aboutproject__date-back {
+    font-size: 11px;
+    line-height: 13px;
+  }
+}

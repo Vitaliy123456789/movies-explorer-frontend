@@ -1,0 +1,112 @@
+.header {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.header__links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #3ddc84;
+  width: 76px;
+  height: 32px;
+  color: #000000;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 30px;
+  border: none;
+  border-radius: 3px;
+}
+
+.header__button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.header__link {
+  color: #ffffff;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: none;
+}
+.header__link-movise {
+  color: #ffffff;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 16px;
+}
+.header__link-movise:last-child {
+  margin-right: 0px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+.header__link-conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__link-button {
+  background-color: #313131;
+  width: 100px;
+  height: 32px;
+  color: #ffffff;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  border: none;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .header__link-movise {
+    display: none;
+  }
+  .header__link-button {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .header__button {
+    width: 54px;
+    height: 26px;
+    font-size: 10px;
+    margin-left: 14px;
+  }
+  .header__link {
+    font-size: 10px;
+  }
+}
